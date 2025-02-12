@@ -1,0 +1,630 @@
+vectors.
+Vectors in C++ are sequence containers representing arrays that can change in size. 
+
+function c++.
+A block of code which runs only when it is called and can pass data, which are known as parameters, into the function is called a function.
+
+function c++ call.
+To execute the codes of the function body, the user defined functions need to be called, and a return type is also set.
+
+use importance advantage function c++.
+Functions are used to perform certain actions, and they are important for reusing code.
+
+use function.
+Define the code of function once, and use it many times.
+
+array c++.
+An array in c++ is a collection of items stored at contiguous memory locations and elements can be accessed randomly using indices of it.
+
+argument c++.
+An argument is the value on which the function operates on.
+
+declare array.
+To declare an array in c++, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store.
+
+access array element.
+You access an array element in c++ by referring to its index number.
+
+change value member new element array.
+To change the value of a specific element of an array in c++, refer to the index number and store its new value in it.
+
+initialize array.
+An array in c++ can be initialized with declaration statements or assigned values with list statements.
+
+initializing sequence shorter array.
+If the initializing sequence is shorter than the array, then the rest of the values are initialized to zero.
+
+array specified without size.
+If an array is specified without a size, but with an initialization list, the size is defined to be equal to the number of values in the sequence.
+
+offset greater than largest valid offset.
+It is a common mistake to specify an offset that is one greater than the largest valid offset, This error can be very difficult to find because it is not reported by the compiler and it accesses a memory location outside of the declared memory space of the array.
+
+accessing memory locations outside.
+Accessing memory locations outside the bounds of an array can produce execution errors such as “segmentation fault” or “bus error” and more often this error is not detected during the program execution, but will cause unpredictable program results, since your program has potentially modified a memory location allocated for a different use.
+
+algorithm c++.
+An algorithm is a set of steps used by a program to accomplish a task.
+
+array pass function.
+When the information in an array is passed to a function, two parameters are usually used; one parameter specifies the specific array and the other parameter specifies the number of elements used in the array. 
+
+arrays pass function arguments.
+Arrays are passed in function arguments by pass by reference.
+
+character array.
+A character array is an array in which the individual elements are stored as characters.
+
+character string array.
+A character string can be represented using a character array in which the last array element is a null character.
+
+more character than maximum size character array.
+If the input data has more characters than the maximum size of the character array, the input operator will assign values beyond the bounds of the array, and an error will occur.
+
+getline() function.
+The function getline() is a member function of the istream class and can be called by any input stream object.
+
+string class.
+The string class provides an object-based alternative to the C-style string.
+
+size() string.
+The size() function returns the length of the calling string.
+
+empty() string.
+The empty() function returns true if the calling string contains no characters otherwise returns false.
+
+substr() string. 
+The substr(int start,int len) returns the substring of length len that is beginning at start of the calling string.
+
+c_str() string.
+The c_str() function returns the equivalent C-style string.
+
+vector class c++.
+The vector class is a pre-defined type included in the C++ Standard Template Library (STL), and provides a generic implementation for the concept of an array.
+
+
+vector size.
+The size of a vector is a count of the number of elements that are being used.
+
+name functions methods defined in vector class.
+Following are the methods:back(),begin(),capacity(),empty(),end(),erase(),insert(),pop_back(),push_back(),resize(),size().
+
+vector method function back().
+Method of vector class that returns the value of the last element.
+
+vector method function begin().
+Method of vector class that returns iterator to first element.
+
+vector method function capacity().
+Method of vector class that returns the capacity.
+
+vector method function empty().
+Method of vector class that returns true if size is zero and returns false otherwise.
+
+vector method function end().
+Method of vector class that returns iterator to one past last element.
+
+vector method function erase().
+Method of vector class that deletes element.
+
+vector method function insert().
+Method of vector class that returns insert element.
+
+vector method function pop_back().
+Method of vector class that deletes the last element.
+
+vector method function push_back(). 
+Method of vector class that  adds element to the end.
+
+vector method function resize().
+Method of vector class that changes the capacity.
+
+vector method function size().
+Method of vector class that returns the size.
+
+vector pass function default.
+When a vector is required as a formal parameter in a function definition, the default is pass by value.
+
+modify change values vector.
+To modify the values of a vector argument, we must specify a pass by reference.
+
+cstring header syntax file.
+We can include the header file by: #include<cstring>.
+
+vector header syntax file.
+We can include the header file by: #include<vector>.
+
+string header syntax file.
+We can include the header file by: #include<string>.
+
+two-dimensional two dimensional 2-D array.
+Two Dimensional array in C++ is an array that consists of more than one rows and more than one column.
+
+two-dimensional two dimensional 2-D array element refer.
+In 2-D array each element is refer by two indexes; the first index shows the row of the element and the second index indicates the column of the element.
+
+value different type limitation two-dimensional two dimensional 2-D array.
+All values in a two dimensional array must have the same data type. 
+
+syntax two-dimensional two dimensional 2-D array.
+(Data type) (Name of array) [Number of rows] [Number of columns];.
+
+declare two-dimensional two dimensional 2-D array.
+To declare a two-dimensional array, we specify the number of rows and the number of columns in the declaration statement in square brackets, with the row number first.
+
+initialize two-dimensional two dimensional 2-D array.
+A two-dimensional array can be initialized with a declaration statement and an initialization list.
+
+empty dimension two-dimensional two dimensional 2-D array.
+The row size is the only dimension that can be empty when declaring a two-dimensional array. 
+
+column size empty.
+Leaving the column size empty will result in a compilation error.
+
+assign values two-dimensional two dimensional 2-D arrays nested loop.
+Two-dimensional arrays can be assigned values with program statements using two nested for loops.
+
+compiler c++.
+A compiler is a computer software that translates and processes statements that are written in particular programming languages and turns them into machine language, also known as "code".
+
+c++.
+C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language.
+
+comments c++.
+Comments are explanations or a description of the source code to help the reader to understand what is happening in the program, and the compiler ignores a comment.
+
+single line comments c++.
+single line comments start and continue with "//".
+
+multi line multiple comments c++.
+multi line comments start with "/*" and end with "*/".
+
+
+type specifier.
+When you first declare a variable in a statically typed language such as C++ you must declare what that variable is going to hold. 
+
+declarations c++.
+A type declaration statement defines new identifiers and allocates memory an initial value that may be assigned to the memory location at the time the identifier is defined, modifiers may also be specified.
+
+boolean c++.
+Data that can be represented by two values only; true or false, yes or no, 1 or 0. .
+
+character c++.
+Data type that is character based, and each character corresponds to a unique binary code value.
+
+string c++.
+Also known as a 'string' of characters, string data type generally means an ordered sequence of characters, with a first character, a second character, and so on.
+
+c++ class.
+A class is a user defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class.
+
+class declaration c++.
+To declare a class, first "class" is typed followed by an identifier that specifies the name of the class, and the body is the block of code and includes declaration statements for stata members and class methods.
+
+constructor c++.
+A constructor is a member function of a class which initializes objects of a class
+In C++, Constructor is automatically called when object(instance of class) create
+It is special member function of the class.
+
+class implementation c++.
+An implementation file is used in C++ programming when creating a class definition to split the interface from the implementation, the header file would declare all the member functions (methods) and data methods (fields) that the class has.
+
+assignment operator c++.
+An operator in c++ that is used to store a result in a memmory location named by the identifier
+It is usually represented/assigned using a '=' symbol.
+
+arithematic mathematical operators.
+Arithemic operators are used for basic mathematical operations, and these include (and denoted): additon('+'), substraction('-'), multiplication('*'), division('/') and modulus('%').
+
+modulus operator c++.
+This is an operator known as the modulus operator, which is used to compute the remainder in a division between two integers.
+
+precedence operator c++.
+Parentheses  have the 1st precedence, unary operators( +,- (type)) second, binary(*,/,%) third and binary(+,-) last.
+
+increment operator c++.
+The increment operator is denoted by '++' after a variable, adds a value of 1 to its operand.
+
+decrement operator c++.
+Decrement operators are denoted by '--' and are used to decrease the value of the variable by one.
+
+newline.
+Newline character is used to advance to the next line and is usually denoted "\n".
+
+dot operator c++.
+A dot operator is a special operator which is used to call one of its memeber functions.
+
+cin object.
+cin object is an object of type istream and is defined by the compiler to stream imput fro standard input device.
+
+standard input.
+C++ uses the istream object cin to stream data from standard input and store values in memory locations named by the identifiers.
+
+cmath.
+A header file (<cmath>) declares a set of functions to perform mathematical operations such as: sqrt() to calculate square root, log() to find natural logarithm of a number etc.
+
+top down.
+Top-down design presents a “big picture” description of the problem solution, which is then refined until the steps are detailed enough to translate to language statements.
+
+pseudocode.
+Pseudocode uses English-like statements to describe the steps in an algorithm.
+
+flowchart.
+Flowchart uses a diagram to describe the steps in an algorithm.
+
+pseudocode flowchart.
+Pseudocode and flowcharts help us determine the order of steps to solve a problem.
+
+structured program c++.
+A structured program is one written using simple control structures to organize the solution to a problem, and a simple structure is usually defined to be a sequence, a selection, or a repetition.
+
+sequence selection repetition structure.
+A sequence structure contains steps that are performed one after another; a selection structure contains one set of steps that is performed if a condition is true and another set of steps that is performed if the condition is false; a repetition structure contains a set of steps that is repeated as long as a condition is true.
+
+selection structure c++.
+A selection structure contains a condition that can be evaluated as either true or false; if the condition is true, then one set of statements is executed, and if the condition is false, then another set of statements is executed.
+
+condition c++.
+A condition is an expression that can be evaluated to be true or false, and may contain logical operators and expressions combined with relational operators.
+
+relational operator c++.
+Relational operators are those that can be used to compare two expressions and return True or False.
+
+logical operator c++.
+Logical operators are those that can be used to compare two conditions and return True or False; they contain the ‘and’, ‘or’, and ‘not’.
+
+relational logical precedence preference hierarchy.
+The relational operators have higher precedence than the logical operator.
+
+truth table.
+Truth tables provide the truth values of a condition given the truth values of the Boolean operands.
+
+short circuit.
+When expressions with logical operators are executed, C++ will only evaluate as much short circuiting of the expression as necessary to evaluate it; this is known as short circuiting.
+
+less than operator <.
+‘<’ is the ‘less than’ relational operator.
+
+less than operator equal <=.
+‘<=’ is the ‘less than or equal to’ relational operator.
+
+greater operator than >.
+‘>’ is the ‘greater than’ relational operator.
+
+greater than operator equal >=.
+‘>=’ is the ‘greater than or equal to’ relational operator.
+
+equal to == operator.
+‘==’ is the ‘is equal to’ relational operator.
+
+not equal to operator !=.
+‘!=’ is the ‘is not equal to’ relational operator.
+
+and && operator.
+‘&&’ is the ‘and’ logical operator.
+
+or || operator.
+‘||’ is the ‘or’ logical operator.
+
+not operator ! 
+‘!’ is the ‘not’ logical operator.
+
+logical operators precedence preference.
+The precedence for logical operators, from highest to lowest, is !, &&, ||, but parenthesis can be used to change the hierarchy.
+
+if condition statement.
+The if statement allows us to test conditions and then perform statements based on whether the conditions are true or false.
+
+if condition statement example syntax implement use.
+The syntax for an if statement is: “if (condition) > {statements};” where statements are executed if condition is True, and skipped if False.
+
+switch statement condition.
+A switch statement allows us to test multiple conditions and then execute groups of statements based on whether the conditions are true or false.
+
+switch statement condition syntax use example implement.
+The syntax for a switch statement is: “switch (controlling expression) > { case label_1: > statements; > case label_2: > statements; > … > default: > statements; }”.
+
+statement block.
+A statement block is a set of statements enclosed in brackets.
+
+if nested statement condition.
+Nesting of if statements is when an if statement is enclosed within another if statement.
+
+indent c++.
+Indenting is when we leave some space before the start of a code in order to distinguish a statement block and make the code more readable.
+
+if else statement.
+An if/else statement allows us to execute one statement block if a condition is true and a different statement block if the condition is false.
+
+if else condition statement example syntax implement use.
+The syntax for an if/else statement is: “if (condition) > {statements1}; > else > {statements2};” where statements1 are executed if the condition 2 is True, and statements2 are executed if False.
+
+empty statement.
+An empty statement is a code statement that has no lines of code but only a semicolon.
+
+conditional operator c++.
+A conditional operator is a ternary operator (having three arguments) that can be used in place of an if/else statement and performs the same function.
+
+conditional operator example syntax.
+An example of a conditional operator is: “a<b ? ++count : c = a + b;”
+
+conditional operator c++ precedence preference order hierarchy.
+A conditional operator is evaluated before assignment operators. 
+
+operator overloading.
+Operator overloading is the process of defining operators for programmer-defined types; it allows a programmer-defined type to use an existing operator in the same way as built-in types do.
+
+operator overloading syntax implement use example.
+The syntax for operator overloading is: “ [return type] [class name]::operator [operator symbol](const [class name]& rhs) const > {definition};”.
+
+calling object c++.
+Calling object is the object which calls an overloaded binary operator.
+
+repetition structures statements.
+Repetition structures allow us to repeat, or loop through, a set of steps as long as a condition is true.
+
+while statement loop.
+A while loop repeatedly iterates the block of code within it as long as the condition provided to the loop returns True.
+
+while statement loop implement use syntax example.
+The syntax of a while loop is: “while (condition) > {statements};” where the statements are executed repeatedly as long as condition is True.
+
+infinite statement loop.
+An infinite loop is one that continues to run through an infinite number of iterations, and is usually caused when the condition given to a while loop remains True indefinitely.
+
+do while statement loop.
+The do/while loop repeatedly iterates the block of code within it as long as the condition provided to it returns True, however the condition is tested at the end of the loop instead of at the beginning of the loop.
+
+do while statement loop use syntax implement example.
+The syntax for a do/while loop is: “do > {statements;} while (condition);” where statements are repeated as long as the condition is True.
+
+do while statement loop difference.
+The difference between a while and a do/while loop is that a do/while loop is always executed at least once, whereas a while loop will not be executed at all if the condition is initially false.
+
+loops different all.
+Types of loops in C++ are the while loop, the do/while loop, and the for loop.
+
+for statement loop.
+The ‘for’ loop allows us to make a loop based on a counter that increments or decrements by the same time each iteration, and exits the loop when it reaches a certain value.
+
+for statement loop implement structure.
+The loop consists of a loop control variable, a condition that must be True to continue loop repetition, and a special modification to the loop-controlled object that follows the execution of the statement block.
+
+for statement loop syntax use.
+The syntax of a for loop is: “for (expression_1; expression_2; expression_3) > {statements;}” where the expressions are loop-control variable, condition, and modification to variable, respectively.
+
+
+comma operator.
+The comma operator is used to separate multiple statements in a for loop, and is executed last in operator precedence.
+
+break statement keyword.
+The break statement is used to immediately exit from the loop in which it is located.
+
+continue statement keyword.
+The continue statement is used to skip the remaining statements in the current pass, and then continue with the next iteration of the loop.
+
+break continue statement keyword.
+Both the break and continue statements are useful in exiting either the current iteration or the entire loop, respectively, when error conditions are encountered.
+
+counter controlled loop.
+A counter-controlled loop can be used for reading input data if the number of data values is known before the data are entered.
+
+counter controlled loop implement use.
+The number of data values to be input is read from the keyboard and stored in a counter, which is then used to control the number of iterations of the input loop; the loop is easily implemented using a while loop or a for loop.
+
+sentinel controlled loop.
+A sentinel-controlled loop can be used to input data if a special data value exists that can be used to indicate the end of data.
+
+sentinel controlled loop implement use.
+To implement this structure, we use a while loop which is controlled by a condition that returns True until the sentinel value is entered.
+
+end data loop. 
+The end-of data loop is the most flexible loop for reading input data, as it requires no prior knowledge of the number of data values, and no sentinel value.
+
+end data loop implement use. 
+The loop is structured to continue executing the statements inside the loop while new data are available, and it only terminates when the end of data is encountered.
+
+eof c++.
+The eof() function is a member of the istream class and it returns a value of true if the end of data has been encountered by the calling object; it can be easily implemented using a while loop.
+
+
+buffer stream.
+A buffer is portion in the memory that is use to store stream of data from peripheral devices, then from buffer this stream of data is collected and stored in variables.  
+
+unbuffered stream.
+In case of unbuffered streams, stream of data is send directly to output device or stored in variable without linking it with memory portion.
+
+cerr c++.
+The stream object cerr is defined by the compiler to stream output to the system’s standard error output device, it is an unbuffered stream meaning that cerr the output will be streamed directly to standard error.
+
+header file for cerr.
+iostream is the header file required for using cerr.
+
+file handling.
+File handling provides a mechanism to store the output from program in a file and to perform various operations on it.
+
+fstream  class c++.
+Fstream is a header file to operate on files, like reading and writing on files.
+
+ifstream class c++.
+The ifstream class is used to define input file streams that can stream data from a file.
+
+ifstream c++ object decleration.
+A type declaration statement is used to define an object of type ifstream, as in  ifstream sensor1;.
+
+ofstream class c++.
+The ofstream class is used to define output file streams that can stream output to a file.
+
+header file to use ifstream ofstream.
+To use the ifstream and ofstream classes, a program must include the header file fstream.
+
+open() function or how to open files. 
+Inorder to open the files we use open() function which is memember function of if stream class, file name is passed as argument to this function.
+
+fail or fail() function.
+The fail() function returns a value of true if the data file failed to open.
+
+close function or close files.
+The close() function is used to close a file after we are finished with it; the function is called by a file stream object.
+
+c_str function c++.
+The function c_str() is a member function of the string class, and it returns a C-style string that is equivalent to the calling object.
+
+sentinel value.
+In computer programming, a sentinel value is a special value in the context of an algorithm which uses its presence as a condition of termination, typically in a loop or recursive algorithm. 
+
+eof() or eof function or end of file.
+The eof() function is used to detect end of any file, it returns the value true when end of file is encountered.
+
+data filters.
+Programs called data filters are often used to read the information in a data file, modify the contents of the file, and write the modified data to a new file.
+
+error state input stream.
+When an input stream is in an error state, the program continues to execute but input operations applied to the stream will result in a null operation, which means that the input buffer will not be modified.
+
+null operation.
+Null operation indicates that a variable doesn't point to any object and holds no value.
+
+state flags.
+The state of a stream is represented as a set of variables defined in the class ios_base, these variables are often referred to as state flags.
+
+goodbit c++.
+goodbit() is set true if no errors occur or all other state flags are set false.
+
+badbit c++.
+badbit() is encountered when there is read/write error in I/O operations.
+
+functions or modules c++.
+In c++ functions, or modules, are independent blocks of statements, defined outside of main(), that typically perform an operation or compute a value.
+
+function definition c++.
+Function definition consists of a function header followed by a statement block.
+
+function header c++.
+A function header defines the type of value that is returned by the function, followed by function name and parameter list.
+
+function body c++.
+Additional objects used by a function are defined in the statement block that defines the function body.
+
+function prototypes c++. 
+The function prototypes are used to tell the compiler about the number of arguments and about the required datatypes of a function parameter, it also tells about the return type of the function, by this information, the compiler cross-checks the function signatures before calling it.
+
+function parameters c++.
+The term parameter refers to any deceleration within the parentheses following the function name in function decleration or definition. 
+
+formal parameters.
+A function header defines the parameters required to reference a function; these are called formal parameters.
+
+actual parameters function arguments.
+Any statement that references a function must provide values that correspond to the parameters, these are called actual parameters or function arguments.
+
+parameter argument passing.
+Parameter/argument passing is the mechanism used to pass parameters to a procedure (subroutine) or function. 
+
+pass call by value.
+When using pass by value for parameter passing, the value of the argument is passed to the function and assigned as the value of the corresponding formal parameter.
+
+coercion arguments.
+If the type of a function argument is not the same as the corresponding formal parameter, then the value of the function arguments may be converted to the appropriate type; this conversion is also called coercion of arguments and may cause errors.
+
+pass call by reference.
+When the purpose of a function is to modify one or more of the function arguments, the corresponding formal parameters must receive the address of the arguments to be modified, instead of the value, this type of parameter passing is referred to as pass by reference.
+
+scope c++.
+Scope is defined in terms of the portion of the program in which the object is visible or accessible.
+
+local scope c++ objects.
+Local objects are defined within a function and thus include the formal parameters and any other objects declared in the function, it can only be accessed in the function that defines it.
+
+automatic storage class.
+The automatic storage class is used to represent local objects, this is the default storage class, but it can also be specified with the keyword auto before the type designation.
+
+global scope c++ objects.
+Global objects are defined outside the main function or other programmer-defined functions, definition of a global object is outside of all functions, so it can be accessed by any function within the program file.
+
+external storage class.
+The external storage class is used to class represent global objects.
+
+static storage class.
+The static storage class is used to specify that the memory for a local object should be retained during the entire program execution.
+
+rand function random numbers.
+rand() function is use to generate random integers between 0 and RAND_MAX.
+
+randmax rand_max.
+RAND_MAX is a system-dependent integer defined in cstdlib (A common value for RAND_MAX is 32,767).
+
+random number seed.
+To cause a program to generate a new sequence of random values each time that it is executed, we need to give a new random number seed to the random-number generator.
+
+srand function c++.
+The srand() (from cstdlib) specifies the seed for the random-number generator.
+
+accessor methods.
+Accessor methods are value-returning member functions with an empty parameter list, the sole purpose of an accessor method is to return the value of an attribute.
+
+mutator methods.
+Mutator methods are defined as void member functions with one or more input parameter, the sole purpose of a mutator method is to mutate, or change, the value of the calling object.
+
+loops.
+loops statement allows to repeatedly run the same block of code until a condition is met.
+
+protected access specifier.
+If a class member is protected then it is accessible in the inherited class. However, outside the both the private and protected members are not accessible.
+
+private access specifier.
+The protected access specifier allows the class the member belongs to, friends, and derived classes to access the member.However, protected members are not accessible from outside the class.
+
+public Access specifier.
+The public keyword is an access specifier that can access members from outside the class.
+
+abstraction.
+Abstraction refers to hiding the internal implementation and exhibiting only the necessary details.
+
+inheritance.
+Inheritance is the process of acquiring the properties of the existing class into the new class.
+multiple inheritance.
+Multiple Inheritance is a feature of C++ where a class can inherit from more than one classes. 
+cerr.
+cerr is an object of class ostream that represents the standard error stream oriented to narrow characters (of type char). It corresponds to the C stream stderr.
+
+cout.
+cout is an object of the output stream that is used to show output and uses the operator (<<), included with library "iostream".
+
+cin.
+cin is an input statement and uses the operator (>>) included with the library "iostream".
+
+storage classes.
+Storage class specifies the life or scope of symbols such as variable or functions.
+
+reference variable.
+A reference variable is an alias name for the existing variable. Which mean both the variable name and reference variable point to the same memory location. Therefore updation on the original variable can be achieved using reference variable too.
+
+static member function.
+A static member function can be invoked using the class name as it exits before class objects comes into existence. It can access only static members of the class.
+
+standard library.
+The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions such as lists, stacks, arrays, etc. It is a library of container classes, algorithms, and iterators.
+
+call by reference.
+The actual parameters are received with the C++ new reference variables as formal parameters. We choose this if we do want the actual parameters to be modified with formal parameters.
+
+call by address.
+We send address of the actual parameters instead of values. We choose this if we do want the actual parameters to be modified with formal parameters.
+
+call by value.
+The values are sent to the function as parameters. We choose this if we do not want the actual parameters to be modified with formal parameters but just used.
+
+recursion c++.
+A function calling itself is called as recursion.
+
+length of identifier.
+Ideally a length of identifier is 32 characters and also implementation dependent.
+
+ASCII code.
+Pronounced ask-ee, ASCII is the acronym for the American Standard Code for Information Interchange. It is a code for representing 128 English characters as numbers, with each letter assigned a number from 0 to 127. For example, the ASCII code for uppercase M is 77.
+
+polymorphism c++.
+C++ polymorphism means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function.
+
+
